@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <ul class="header">
+        <li>
+          <a href="index.html"><img src="img/logo.svg" alt="main" /></a>
+        </li>
+        <li><h2 class="header__name">JolyBell</h2></li>
+        <li>
+          <a href="contacts.html"
+            ><img src="img/Vector.svg" alt="contacts"
+          /></a>
+        </li>
+      </ul>
+    </div>
+    <div class="top__contacts">
+      <div class="container">
+        <div class="top__contacts__text">
+          <h2 class="contacts__header__name">Contact Us</h2>
+          <p class="contacts__header__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="contacts__content container">
+      <div class="content__info">
+        <img class="content__img" src="img/concontent.png" alt="photo" />
+        <div class="content__elem">
+          <div class="content">
+            <h4 class="content__name">ADDRESS</h4>
+            <p class="address__text">Moscow, Kutuzovsky Prospect</p>
+          </div>
+          <div class="content">
+            <h4 class="content__name">PHONE</h4>
+            <ul>
+              <li class="phone phone__text">8(985)***1192</li>
+              <li class="phone phone__text">8(982)***8648</li>
+            </ul>
+          </div>
+          <div class="content">
+            <h4 class="content__name">ONLINE SERVICE</h4>
+            <ul>
+              <li class="site">
+                <a class="link" href="index.html">www.joly-bell.com</a>
+              </li>
+              <li class="email">
+                <a
+                  class="link"
+                  href="https://mail.yandex.ru/?uid=235457498#inbox"
+                  target="blant"
+                  >giliazov.oleg99@yandex.ru</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="content__sendform">
+        <h4 class="send__heading">send us message</h4>
+        <div class="form">
+          <div class="form__name">Full Name</div>
+          <input class="input" type="text" placeholder="Oleg Gill" />
+          <div class="form__name">Email</div>
+          <input class="input" type="email" placeholder="email@email.com" />
+          <div class="form__name">Message</div>
+          <textarea
+            class="input input__message"
+            cols="30"
+            rows="10"
+            placeholder="I have a problem..."
+          ></textarea>
+          <button class="content__button">Submit</button>
+        </div>
+      </div>
+    </div>
+    <div class="map container">
+      <div class="map__df" id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+        <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+        <script>
+          (function () {
+            var setting = {
+              height: 538,
+              width: 803,
+              zoom: 10,
+              queryString: "Стенфорд, Калифорния, США",
+              place_id: "ChIJzd7xXsm6j4ARUp8sFUMNrWs",
+              satellite: false,
+              centerCoord: [37.53812521473955, -122.05385739360086],
+              cid: "0x6bad0d43152c9f52",
+              lang: "ru",
+              cityUrl: "/us/ca/san-jose",
+              cityAnchorText: "Карта [CITY1], Калифорния, США",
+              id: "map-9cd199b9cc5410cd3b1ad21cab2e54d3",
+              embed_id: "262950",
+            };
+            var d = document;
+            var s = d.createElement("script");
+            s.src = "https://1map.com/js/script-for-user.js?embed_id=262950";
+            s.async = true;
+            s.onload = function (e) {
+              window.OneMap.initMap(setting);
+            };
+            var to = d.getElementsByTagName("script")[0];
+            to.parentNode.insertBefore(s, to);
+          })();
+        </script>
+        <a href="https://1map.com/ru/map-embed"></a>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="bottom__box container">
+        <div class="footer__top">
+          <div class="footer__alltext">
+            <h3 class="footer__heading heading">
+              Intersted to woek with our team?
+            </h3>
+            <p class="text footer__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus
+              tristique vulputate ultrices ut mauris tellus at. Posuere
+              sollicitudin odio tellus elit.
+            </p>
+          </div>
+          <a href="#" class="footer__button">Let’s Talk</a>
+        </div>
+        <hr class="line" />
+        <div class="footer__bottom">
+          <ul class="footer__info">
+            <li class="footer__list">No links yet</li>
+            <li class="footer__list">
+              <span class="inftext">Phone number:</span> 8(985)***1192.
+            </li>
+            <li class="footer__list">
+              <span class="inftext">Email:</span> giliazov.oleg99@yandex.ru
+            </li>
+          </ul>
+          <p class="copy">&copy; 2020 &quot;All rights reserved&quot;</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
